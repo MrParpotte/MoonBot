@@ -19,4 +19,10 @@ client.on('messageCreate', message => {
     }
 });
 
+client.on('messageCreate', message => {
+    if (message.content === '!hello') {
+        message.reply('Bonjour ! 👋');
+    }
+});
+
 client.login(process.env.TOKEN);
