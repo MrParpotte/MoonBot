@@ -15,13 +15,13 @@ client.once('ready', () => {
 
 client.on('messageCreate', message => {
     if (message.content === '!ping') {
-        message.reply('Pong !');
+        message.reply('🏓 Pong !');
     }
 });
 
 client.on('messageCreate', message => {
     if (message.content === '!hello') {
-        message.reply('Bonjour ! 👋');
+        message.reply('👋 Bonjour !');
     }
 });
 
